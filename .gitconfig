@@ -1,0 +1,12 @@
+[user]
+	name = Gitpascoal
+	email = 166017459+Gitpascoal@users.noreply.github.com
+[core]
+	editor = nano
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[safe]
+	directory = C:/Users/gabri
